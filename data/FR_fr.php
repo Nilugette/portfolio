@@ -1,0 +1,40 @@
+<?php
+
+$trads = [
+	'presentation' => "Vous allez découvrir ci-dessous les différentes étapes de mon parcours professionnel qui de prime abord peu paraître atypique mais qui pourtant reste focalisé sur la même détermination, celle de pouvoir faire de nouvelles choses et surtout toujours apprendre. C'est pour cela que le domaine du numérique, par sa complexité et ses domaines de compétences innombrables, est une source intarissable de nouveaux défis à relever. Dans un souci d'épanouissement et de bien-être, j'ai eu envie de découvrir ce nouveau monde qui ne cesse de m'apporter de grandes satisfactions.",
+
+	'about_me' => 'A propos de moi',
+	'skills' => 'Compétences',
+	'experience' => 'Expériences',
+	'education' => 'Education',
+	'portfolio' => 'Portfolio',
+	'contact' => 'Contact',
+	'welcome' => 'Bonjour et bienvenue sur mon portfolio',
+	'dev' => 'Développeuse Web',
+	'link_cv' => 'laure_cv.pdf',
+	'download' => 'Télécharger mon CV',
+	'customer_service' => 'Support Technique',
+	'support' => 'Gestion incidents et ouverture tickets incidents',
+	'monitoring' => 'Supervision réseau et hébergement de différentes plateformes dans le monde',
+	'translation' => "Traduction d’Anglais à Français des produits mis en ligne sur le site d’Amazon",
+	'assistant' => 'Assistante Commerciale et Achat',
+	'responsible' => 'Respectivement en charge de l’administration des ventes, des achats, de la gestion des stocks et des projets d’impression textile promotionnel',
+	'p_a' => 'Assistante de Direction',
+	'secretarial' => 'Secrétariat et organisation de la présentation du guide gastronomique',
+	'missions' => 'Diverses Missions',
+	'missions_description' => 'Diverses missions effectuées comme de la restauration, chargée de clientèle...',
+	'highschool' => 'Lycée',
+	'diploma' => 'Bac STL',
+	'chemistry' => 'Sciences et Techniques de Laboratoire',
+	'certification' => 'Certification RNCP  Développeur / Intégrateur Web (niveau III)',
+	'firstname' => 'Votre prénom',
+	'lastname' => 'Votre nom',
+	'email' => 'Votre email',
+	'message' => 'Votre message',
+	'thx_you' => "Votre message a bien été envoyé. Merci de m'avoir contacté !",
+	'firstname_field' => "Vous n'avez pas rempli le champs prénom",
+	'lastname_field' => "Vous n'avez pas rempli le champs nom",
+	'email_field' => "Vous n'avez pas rempli le champs email",
+	'message_field' => "Vous n'avez pas rempli le champs message"
+
+];

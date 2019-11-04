@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cup of Tea</title>
+     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+     <link href="https://fonts.googleapis.com/css?family=Amaranth|Open+Sans" rel="stylesheet">
+     <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="js/product.js"></script>
+</head>
+<body>
+	<header>
+		<p class="free_delivery">Livraison offerte à partir de 65€ d'achat !</p>
+		<img src="img/ribbon.svg" alt="ribbon" class="mobile-hide ribbon">
+			<div class="tool-bar">
+			<i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+			</div>
+		<div class="shopping">
+		<p class="mobile-hide"><span class="my-basket">Mon panier<span></p><p class="basket"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span>42,00€</span></p>
+		</div>
+		
+		<a href="index.html"><img src="img/logo.png" class="logo" alt="Logo Cup of Tea"></a>
+		<div class="clearfloat"></div>
+		<nav class="lean-on mobile-hide">
+			<ul>
+				<li><a href="listing.html">Thés</a></li>
+				<li><a href="#">Grands Crus</a></li>
+				<li><a href="#">Accessoires</a></li>
+				<li><a href="#">Epicerie</a></li>
+				<li><a href="about.html">Notre histoire</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="container london-tea">
+		<article>
+		<div class="presentation">
+			<div class="separation">
+				<h2>Blue of London</h2>
+				<h3>Thé noir à la bergamote</h3>
+				<p class="reference-number">Réf : 133742</p>
+			</div>
+			<div class="separation">
+				<div class="star">
+				<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+				</div>
+				<a href="#" class="review">Voir les avis des clients</a>
+			</div>
+		</div>
+		<div class="presentation">
+			<div class="separation">
+				<img src="img/product/product3_big.jpg">
+			</div>
+			<div class="separation">
+				<form class="formulaire">
+					<select class="quantity selection">
+						<option value="100g" class="quantity bag1">Pochette de 100grs</option>
+						<option value="200g" class="quantity bag2">Pochette de 200grs</option>
+						<option value="300g" class="quantity bag3">Pochette de 300grs</option>
+					</select>
+				</form>
+				<p><span class="mobile-hide price">9.00€</span></p>
+				<a href="#" class="brown_square btn">Ajouter au panier</a>
+				<a href="#" class="review"><i class="fa fa-heart" aria-hidden="true"></i>Ajouter à ma liste d'amis</a>
+			</div>
+		</div>
+			<p>Blue of London est un Earl Grey d'exception qui associe un des meilleurs thés noirs au monde, le Yunnan, et une bergamote fraîche et délicate. Un mélange remarquable d'équilibre et de finesse.</p>
+			<p>Le Earl Grey est un grand classique anglais, depuis que Charles Grey, comte (earl en anglais) de Falodon et Ministre des Affaires étrangères du Royaume britannique au milieu du XIX ème siècle, reçut d'un mandarin chinois une vieille recette consistant à aromatiser son thé avec de la bergamote.</p>
+			<p><span>Profitez d'une remise de 5% sur la pochette de 500g (prix déjà remisé).</span></p>
+			<p><span>Profitez d'une remise de 10% sur la lot de 2 pochettes de 500g (prix déjà remisé).</span></p>
+		</article>
+	</main>
+		<script>
+			$(window).on('load', function() {
+			
+				$(".tool-bar").click(function() {
+  					$(".lean-on").toggle(".appears");
+				});
+
+				$(".bag2").click(function() {
+					$(".price").empty();
+  					$(".price").text("17.00€");
+				});
+			});
+
+		</script>
+	<footer>
+		<div id="garantee" class="flexible">
+		<h6><i class="fa fa-lock fa-2x" aria-hidden="true"></i>Paiement sécurisé</h6>
+		<h6><i class="fa fa-truck fa-2x" aria-hidden="true"></i>Ma livraison offerte</h6>
+
+		<h6><i class="fa fa-money fa-2x" aria-hidden="true"></i>Carte de fidélité</h6>
+		<h6><i class="fa fa-phone fa-2x" aria-hidden="true"></i>Service client</h6>
+		<h6><i class="fa fa-check-circle fa-2x" aria-hidden="true"></i>Garantie qualité</h6>
+		</div>
+		<ul class="list">
+			<li class="list-title">
+				<h5>Cup of tea</h5>
+				<ul class="navigation">
+					<li><a href="#">Notre histoire</a></li>
+					<li><a href="#">Nos boutiques</a></li>
+					<li><a href="#">Le thé de A à Z</a></li>
+					<li><a href="#">Espace clients professionnels</a></li>
+					<li><a href="#">Recrutement</a></li>
+					<li><a href="#">Contactez-nous !</a></li>
+					<li><a href="#">L'école du Thé</a></li>
+				</ul>
+			</li>
+			<li class="list-title">
+				<h5>Commandez en ligne</h5>
+				<ul class="navigation">
+					<li><a href="#">Première visite</a></li>
+					<li><a href="#">Aide - FAQ</a></li>
+					<li><a href="#">Service client</a></li>
+					<li><a href="#">Suivre ma commande</a></li>
+					<li><a href="#">Conditions générales de vente</a></li>
+					<li><a href="#">Informations légales</a></li>
+				</ul>
+			</li>
+			<li class="list-title">
+				<h5>Suivez-nous !</h5>
+				<ul class="navigation">
+					<li><a href="#">Notre histoire</a></li>
+					<li><a href="#">Nos boutiques</a></li>
+					<li><a href="#">Le thé de A à Z</a></li>
+					<li><a href="#">Espace clients professionnels</a></li>
+				</ul>
+			</li>
+		</ul>
+			<small id="licence">
+		    <a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/"><img alt="Propriété de la 3W Academy" style="border-width:0" src="https://3wa.fr/wp-content/themes/3wa2015/img/logos/big.png" /></a><br /><span>Cet exercice</span> de <a href="https://3wa.fr">3W Academy</a> est mis à disposition <a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/">pour l'usage personnel des étudiants, Pas de Rediffusion - Attribution - Pas d'Utilisation Commerciale - Pas de Modification - International</a>.<br />Les autorisations au-delà du champ de cette licence peuvent être obtenues auprès de <a href="mailto:contact@3wa.fr" rel="cc:morePermissions">contact@3wa.fr</a>. Les maquettes ont été réalisées par <a href="http://www.justine-muller.fr">Justine Muller</a>.
+		</small>
+	</footer>
+</body>
+</html>

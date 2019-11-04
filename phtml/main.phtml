@@ -1,0 +1,354 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+<head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<meta name="description" content="<?= trad('presentation'); ?>">
+    	<title>Portfolio Laure Lebon</title>
+    	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">	
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+      <link rel="icon" href="img/logo.png">
+   		<link rel="stylesheet" href="css/style.css" >
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body data-spy="scroll" data-target="#menu">
+  <input type="hidden" id="presentation" value="<?= trad('presentation'); ?>" />
+  <header class="site-header container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item page-scroll">
+            <a class="nav-link" href="#about"><?= trad('about_me'); ?></a>
+          </li>     
+          <li class="nav-item page-scroll">
+            <a class="nav-link" href="#skills"><?= trad('skills'); ?></a>
+          </li>
+          <li class="nav-item page-scroll">
+            <a class="nav-link" href="#experience"><?= trad('experience'); ?></a>
+          </li>
+          <li class="nav-item page-scroll">
+            <a class="nav-link" href="#education"><?= trad('education'); ?></a>
+          </li>
+          <li class="nav-item page-scroll">
+            <a class="nav-link" href="#portfolio"><?= trad('portfolio'); ?></a>
+          </li>
+          <li class="nav-item page-scroll">
+            <a class="nav-link" href="#contact"><?= trad('contact'); ?></a>
+          </li>
+        </ul>
+        <div id="language">
+          <form action="" method="post">
+            <select name="lang">
+              <option value="FR_fr"<?= ($_SESSION['lang'] == 'FR_fr' ? ' selected' : ''); ?>>FR</option>
+              <option value="EN_en"<?= ($_SESSION['lang'] == 'EN_en' ? ' selected' : ''); ?>>EN</option>
+            </select>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+ 	<section id="about" class="container-fluid" id="start">
+    <div class="col-xs-8 col-md-4 profile-picture">
+      <img src="img/Laure.jpg" alt="Laure" class="rounded-circle">
+    </div>
+    <div class="heading">
+      <h1><?= trad('welcome'); ?></h1>
+      <h3>Laure Lebon</h3>
+      <h3><?= trad('dev'); ?></h3>
+        <i class="fa fa-quote-left" aria-hidden="true"></i>
+          <div id="str"></div>
+        <i class="fa fa-quote-right" aria-hidden="true"></i>
+      <a href="docs/<?= trad('link_cv'); ?>" class="button1"> <?= trad('download'); ?>  </a> 
+    </div>
+  </section>
+
+  <section id="skills" >
+    <div class="purple-divider"></div>
+    <div class="heading"><h2><?= trad('skills'); ?></h2></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+            <!-- 3 bars de progress -->
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                <h5>HTML/CSS 85%</h5>
+              </div>
+            </div>
+             <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                <h5>PHP/MySQL 75%</h5>
+              </div>
+            </div>
+             <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                <h5>JavaScript/jQuery 70%</h5>
+              </div>
+            </div>
+            <!-- fin des 3 bars de progress -->
+        </div>
+        <div class="col-md-6">
+          <!-- 3 bars de progress -->
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                <h5>Symfony 40%</h5>
+              </div>
+            </div>
+             <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                <h5>Bootstrap 70%</h5>
+              </div>
+            </div>
+             <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                <h5>Wordpress 60%</h5>
+              </div>
+            </div>
+            <!-- fin des 3 bars de progress -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="experience">
+    <div class="container">
+      <div class="white-divider"></div>
+      <div class="heading">
+        <h2><?= trad('experience')?></h2>
+      </div>
+      <ul class="timeline">
+        <li>
+          <div class="timeline-badge"><i class="fa fa-briefcase"></i></div>
+          <div class="timeline-panel-container">
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3>Coriolis Télécom – Suresnes 92</h3>
+                <h4><?= trad('customer_service'); ?></h4>
+                <p class="text-muted"><small><i class="fa fa-clock-o" aria-hidden="true"></i></small> 2016 - 2017</p>
+              </div>
+              <div class="timeline-body">
+                <p><?= trad('support')?></p>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="timeline-badge"><i class="fa fa-briefcase"></i></div>
+          <div class="timeline-panel-container-inverted">
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3>Easynet Global Services Ltd – Shepton Mallet UK</h3>
+                <h4>Technical Support Engineer</h4>
+                <p class="text-muted"><small><i class="fa fa-clock-o" aria-hidden="true"></i></small> 2015 - 2016</p>
+              </div>
+              <div class="timeline-body">
+                <p><?= trad('monitoring'); ?></p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge"><i class="fa fa-briefcase"></i></div>
+          <div class="timeline-panel-container">
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3>Beaubelle Ltd – Bristol UK</h3>
+                <h4>Freelance Translator</h4>
+                <p class="text-muted"><small><i class="fa fa-clock-o" aria-hidden="true"></i></small> 2014 - 2015</p>
+              </div>
+              <div class="timeline-body">
+                <p><?= trad('translation'); ?></p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge"><i class="fa fa-briefcase"></i></div>
+          <div class="timeline-panel-container-inverted">
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3>TransWorld Traders – Puteaux 92</h3>
+                <h4><?= trad('assistant'); ?></h4>
+                <p class="text-muted"><small><i class="fa fa-clock-o" aria-hidden="true"></i></small> 2010 - 2014</p>
+              </div>
+              <div class="timeline-body">
+                <p><?= trad('responsible'); ?></p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge"><i class="fa fa-briefcase"></i></div>
+          <div class="timeline-panel-container">
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3>Guide Champérard – Suresnes 92</h3>
+                <h4><?= trad('p_a'); ?></h4>
+                <p class="text-muted"><small><i class="fa fa-clock-o" aria-hidden="true"></i></small> 2008 - 2009</p>
+              </div>
+              <div class="timeline-body">
+                <p><?= trad('secretarial'); ?></p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge"><i class="fa fa-briefcase"></i></div>
+          <div class="timeline-panel-container-inverted">
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3><?= trad('missions'); ?></h3>
+                <p class="text-muted"><small><i class="fa fa-clock-o" aria-hidden="true"></i></small> 2002 - 2008</p>
+              </div>
+              <div class="timeline-body">
+                <p><?= trad('missions_description'); ?></p>
+              </div>
+            </div>
+          </div>
+        </li> 
+      </ul> 
+    </div>
+  </section>
+  <section id="education">
+    <div class="container">
+    <div class="purple-divider"></div>
+    <div class="heading"><h2><?= trad('education')?></h2></div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="education-block">
+            <h5>2001</h5>
+            <span><i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i></span>
+            <h3><?= trad('highschool'); ?> Paul Langevin - Suresnes 92</h3>
+            <h4><?= trad('diploma'); ?></h4>
+            <div class="purple-divider"></div>
+            <p>Sciences et Techniques de Laboratoire</p>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="education-block">
+            <h5>2018</h5>
+            <span><i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i></span>
+            <h3>3W Academy - Paris 18è</h3>
+            <h4><?= trad('certification'); ?></h4>
+            <div class="purple-divider"></div>
+            <p>HTML, CSS, JavaScript, PHP, SQL</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="portfolio">
+    <div class="container">
+      <div class="white-divider"></div>
+      <div class="heading"><h2><?= trad('portfolio'); ?></h2></div>
+      <!-- première ligne-->
+      <div class="row">
+        <div class="col-sm-4">
+          <a class="thumbnail" href="projets/snake/index.html" target="_blank"><img src="img/snake.png" alt="jeu du snake"></a>
+        </div>
+        <div class="col-sm-4">
+        <a class="thumbnail" href="projets/blog/index.php" target="_blank"><img src="img/blog.png" alt="projet blog"></a>
+        </div>
+        <div class="col-sm-4">
+          <a class="thumbnail" href="projets/restaurant/index.php" target="_blank"><img src="img/restaurant.jpg" alt="projet restaurant"></a>
+        </div>
+      </div>
+      <!-- fin première ligne-->
+      <!-- deuxième ligne-->
+       <div class="row">
+        <div class="col-sm-4">
+          <a class="thumbnail" href="projets/magic_slate/index.html" target="_blank"><img src="img/magic_slate.png" alt="ardoise magique"></a>
+        </div>
+        <div class="col-sm-4">
+          <a class="thumbnail" href="projets/cup_of_tea/index.html" target="_blank"><img src="img/tea.png" alt="tasse de thé"></a>
+        </div>
+        <div class="col-sm-4">
+          <a class="thumbnail" href="projets/hackaton/index.php" target="_blank"><img src="img/hackaton.png" alt="sujet hackaton"></a>
+        </div>
+      </div>
+      <!-- fin deuxième ligne-->
+    </div>
+  </section>
+  <section id="contact">
+    <div class="container padding-150">
+      <div class="purple-divider"></div>
+      <div class="heading"><h2><?= trad('contact'); ?></h2></div>
+      <!-- social media -->
+      <div class="row text-center">
+        <div class="col-md-12">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="li" href="https://www.linkedin.com/in/laure-lebon-3bb282142" target="_blank"></a></li>
+            <li class="list-inline-item"><a class="gt" href="https://github.com/Nilugette" target="_blank"></a></li>
+            <li class="list-inline-item"><a class="fb" href="https://www.facebook.com/laure.lebon.12" target="_blank"></a></li>
+            <li class="list-inline-item"><a class="tw" href="https://twitter.com/nilugette" target="_blank"></a></li>
+          </ul>
+        </div>
+      </div>
+        <!-- fin social media -->
+        <!-- formulaire de contact -->
+        <?php if(array_key_exists('errors', $_SESSION)): ?>
+          <div class="alert alert-danger">
+            <?= implode('<br>', $_SESSION['errors']); ?>
+          </div>
+       <?php unset($_SESSION['errors']); endif; ?> 
+
+      
+        
+      <div class="row justify-content-md-center">
+        <div class="col-md-8">
+          <form action="" method="post">
+            <div class="row">
+              <div class="col">
+                <label for="firstname"><?= trad('firstname'); ?> :</label>
+                <input type="text" class="form-control" id="firstname" name="firstname" value="<?= isset($_SESSION['inputs']['firstname']) ? $_SESSION['inputs']['firstname'] : '' ; ?>" placeholder="Firstname">
+              </div>
+              <div class="col">
+                <label for="lastname"><?= trad('lastname'); ?> :</label>
+                <input type="text" class="form-control" id="lastname" name="lastname" value="<?= isset($_SESSION['inputs']['lastname']) ? $_SESSION['inputs']['lastname'] : '' ; ?>" placeholder="Lastname">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email"><?= trad('email'); ?> :</label>
+              <input type="email" name="email" class="form-control" id="email" value="<?= isset($_SESSION['inputs']['email']) ? $_SESSION['inputs']['email'] : '' ; ?>" placeholder="Email...">
+                <small class="form-text text-muted">Votre email reste confidentiel et ne sera pas partagé</small>
+            </div>
+            <div class="form-group">
+              <label for="message"><?= trad('message'); ?> :</label>
+              <textarea class="form-control" name="message" id="message" rows="3" placeholder="Message..."><?= isset($_SESSION['inputs']['message']) ? $_SESSION['inputs']['message'] : '' ; ?></textarea>
+            </div>
+            <div class="d-flex justify-content-center">
+            <button type="submit" name="submit" class="btn btn-primary">Envoyer</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <br>
+       <?php if(array_key_exists('success', $_SESSION)): ?>
+          <div class="alert alert-success">
+            <?= trad('thx_you'); ?>
+          </div>
+        <?php unset($_SESSION['success']); endif; ?>
+    <!-- fin formulaire  e contact -->
+  </section>
+  </main>
+  <footer class="text-center">
+    <a href="#about"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></a>
+    <h5>© 2018 Portfolio Laure Lebon-Elahi</h5>
+  </footer>
+    <!-- typing effect -->
+    <script src="js/script.js"></script>
+    <!-- scroll effect -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="js/tool.js"></script>
+</body>
+</html>
+<?php
+unset($_SESSION['inputs']);
+
+?>

@@ -1,0 +1,40 @@
+<?php
+
+$trads = [
+	'presentation' => "You will discover below the different stages of my career that has a first but remains focused on the same determination, that of being able to do new things and especially to learn. This is why the digital domain, by its complexity and its countless areas of expertise, is an inexhaustible source of new challenges to retention. For the sake of fulfillment and well-being, I wanted to discover this new world that continues to bring me great satisfaction.",
+	'about_me' => 'About me',
+	'skills' => 'Skills',
+	'experience' => 'Experiences',
+	'education' => 'Education',
+	'portfolio' => 'Portfolio',
+	'contact' => 'Contact',
+	'welcome' => 'Welcome to my online portfolio',
+	'dev' => 'Web Developer',
+	'link_cv' => 'laure_cv_anglais.pdf',
+	'download' => 'Download my CV', 
+	'customer_service' => 'Technical Support',
+	'support' => 'Raising tickets, solving landline issues',
+	'monitoring' => 'Alarm and system monitoring - hosting and network',
+	'translation' => "Translation from english to french of item's description put online",
+	'assistant' => 'Sales Assistant, Buyer, Purchaser',
+	'responsible' => 'Responsible for relationship with suppliers, bargaining, replenishment of the warehouse, quotation, order taking, delivery follow-up, invoicing (virgin or printed t-shirts)',
+	'p_a' => 'Personal Assistante',
+	'secretarial' => 'Secretarial duties and events organization (book publication and France tour)',
+	'missions' => 'Various Missions',
+	'missions_description' => 'Various missions done in restaurant or call center...',
+	'highschool' => 'Highschool',
+	'diploma' => 'A level National Diploma',
+	'chemistry' => 'Science and Technology of Laboratory',
+	'certification' => 'Higher National Diploma - Certification RNCP Web Developer / Integrator',
+	'firstname' => 'Firstname',
+	'lastname' => 'Lastname',
+	'email' => 'Email',
+	'message' => 'Message',
+	'thx_you' => 'Thank you for contacting me. Your message has been successfully sent !', 
+	'firstname_field' => "Firstname field is not completed",
+	'lastname_field' => "Lastname field is not completed",
+	'email_field' => "Email field is not completed",
+	'message_field' => "Message field is not completed"
+	
+	
+];

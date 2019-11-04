@@ -1,0 +1,428 @@
+/*généra*/
+
+* {
+    box-sizing: border-box;
+    outline-border: none;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	padding: 0.5em 0;
+}
+.mobile-hide {
+	display: none;
+}
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+	color: #685a69;
+	background: #f2f2f2;
+}
+body {
+	font-family:'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+h2 {
+	font-family: 'Amaranth', sans-serif;
+	color: #8fb210;
+	text-align: center;
+}
+.line-title
+{
+	margin-bottom:0.5em;
+	padding-bottom: 1em;
+}
+.line-title span
+{
+	background:#fff;
+}
+.line-title:after {
+	content: "     ";
+	display: block;
+	height: 1px;
+	background-color: #e2e1cf;
+	margin-top:-0.5em;
+	
+}
+h4, figcaption {
+	font-family: 'Amaranth', sans-serif;
+	color: #685a69;
+}
+.brown_square {
+	color: #ffffff;
+	background: #b09067;
+	padding: 1em;
+	font-size: smaller;
+}
+.brown_square:hover {
+	background-color: rgba(176, 144, 103, 0.7);
+}
+p {
+	font-size: smaller;
+}
+.clearfloat {
+	clear: both;
+}
+
+/*header*/
+header {
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 2em 0;
+}
+header nav a {
+	color: #ffffff;
+	text-transform: uppercase;
+	display: block;
+}
+
+.free_delivery {
+	background-color: #879e0f;
+	color: #ffffff;
+	padding: 0.5em;
+	opacity: 0.75;
+	position: absolute;
+	top: -12px;
+	width: 100%;
+}
+.basket i.fa {
+	font-size: 1.7em;
+    border: 2px solid #d1dd9d;
+    color: #d1dd9d;
+    width: 40px;
+    height: 40px;
+    line-height: 34px;
+    border-radius: 50%;
+    text-align: center;
+}
+.basket {
+	text-align: left;
+	position: fixed;
+	padding: 0.3em;
+	background-color: #91aa10;
+	box-shadow: -2px -2px #879e0f;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	opacity: 0.6;
+}
+.basket span {
+	color: #ffffff;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+.my-basket {
+	color: rgba(255, 255, 255, 0.8);
+}
+.appears {
+	display: block;
+}
+.lean-on a {
+	padding: 1em 1em;
+}
+.lean-on a:hover {
+	background: rgba(255, 255, 255, 0.2);
+}
+.fa-bars {
+	color: #fff;
+}
+/*main home */
+.flexible {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.flexible h2 {
+	flex-basis: 100%;
+}
+.flexible div {
+	flex-basis: 50%;
+	text-align: center;
+}
+.several_teas img {
+	width: 15em;
+	height: auto;
+}
+.align {
+	text-align: center;
+	padding: 3em 1em;
+}
+figure {
+	padding: 1.5em 0;
+}
+figure p span {
+	font-weight: bold;
+}
+.offer {
+	text-align: center;
+}
+.offer h1 {
+	font-family: 'Amaranth', sans-serif;
+	color: #8fb210;
+}
+.flex-direction-nav {
+	display: none;
+}
+/*main about*/
+
+.history h1 {
+	font-family: 'Amaranth', sans-serif;
+	font-weight: normal;
+}
+.history h2 {
+	text-align: left;
+}
+.history aside {
+	background: #eaefcf;
+	text-align: center;
+	padding: 1em;
+	margin: 1em 0;
+}
+/*main listing */ 
+.list-product {
+	margin: 1em; 
+}
+.list-product h4 {
+	color: #8fb210;
+}
+.list-product div {
+	text-align: center;
+}
+.shopping-list {
+	padding: 1.5em 0;
+}
+.teacup {
+	display: none;
+}
+/*main product*/
+.london-tea {
+	padding: 2em;
+}
+.london-tea h2 {
+	color: #685a69;
+}
+.london-tea h3 {
+	font-family: 'Amaranth', sans-serif;
+	font-weight: normal;
+}
+.london-tea a {
+	display: block;
+}
+.presentation {
+	text-align: center;
+}
+.reference-number {
+	font-style: italic;
+}
+i.fa-heart {
+	color: #e2897b;
+}
+i.fa-star {
+ 	color: #fedb0d;
+}
+i.fa-star:nth-child(5) {
+ 	color: #999997;
+}
+.review {
+	color: #8fb210;
+}
+.quantity {
+	font-family:'Open Sans', sans-serif;
+	color: #7f6068;
+	padding: 1em;
+}
+.btn {
+	margin: 2em 0;
+}
+.london-tea p span {
+	font-weight: bold;
+}
+.london-tea .price {
+	font-size: 2em;
+	text-align: right;
+}
+/*footer*/
+.flexible h6 {
+	flex-basis: 50%;
+	text-align: center;
+	font-size: 1em;
+	color: #cdd69d;
+	margin: 0;
+	padding: 0.8em 0;
+	text-transform: uppercase;
+}
+.flexible h6 i.fa{
+	display: block;
+}
+.list-title h5 {
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0.8em 0;
+	margin: 0;
+}
+.list {
+	text-align: center;
+
+}
+.list a {
+	color: #cdd69d;
+	font-size: 0.8em;
+	padding: 0.8em 0;
+}
+ul {
+	padding: 0;
+}
+#garantee {
+	background: #879e0f;
+}
+footer {
+	background: #96b011;
+}
+#licence {
+	display: block;
+	text-align: center;
+	color: #fff;
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-position: center;
+	font-size: 0.6em;
+	padding: 0.8em 0;
+}
+#licence a {
+	color: #fff;
+}
+
+#licence img {
+	width: 50px;
+}
+@media screen and (min-width: 767px) {
+	.ribbon {
+	display: block;
+	position: absolute;
+	width: 8%;
+	top: 0px;
+	right: 0px;
+	}
+
+	.mobile-hide {
+	display: block;
+	}
+	header div {
+		display: block;
+	}
+	.tool-bar {
+		display: none;
+	}
+	.shopping {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		align-items: center;
+		width: 30%; 
+		float: right;
+		margin-right: 4em;
+	}
+	.basket {
+		position: static;
+		border: none;
+		box-shadow: none;
+		background: none;
+	}
+	.my-basket {
+		padding: 0 0.3em;
+	}
+	
+	.logo {
+		float: left;
+		padding: 1em 1em 1em 4em;
+	}
+	.lean-on {
+		display: block;
+	}
+	.lean-on li {
+		display: inline-block;
+	}
+	#garantee h6 {
+		font-size: smaller;
+		flex-basis: 20%;
+	}
+	.list {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.amelie {
+		float: left;
+		margin-right: 1em;
+	}
+	.xavier {
+		float: right;
+		margin-left: 1em;
+	}
+	.presentation {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.london-tea h2, .london-tea .reference-number {
+		text-align: left;
+	}
+	.london-tea .star {
+		text-align: right;
+	}
+
+}
+@media screen and (min-width: 1024px) {
+	.several_teas div {
+		flex-basis: 20%;
+	}
+	.news {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.align {
+		flex-basis: 33%;
+	}
+	aside {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	aside div {
+		padding: 0 2em;
+	}
+	.teacup {
+	display: block;
+	float: left;
+	}
+
+	.list-product {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	}
+	.tea-history {
+		flex-basis: 100%;
+		padding: 2em 0;
+	}
+	.tea-history h4, .tea-history p {
+		text-align: left;
+	}
+	.products {
+		flex-basis: 33%;
+	}
+}
