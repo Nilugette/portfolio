@@ -1,7 +1,7 @@
 <?php
 
 $trads = [
-	'presentation' => "Vous allez découvrir ci-dessous les différentes étapes de mon parcours professionnel qui de prime abord peu paraître atypique mais qui pourtant reste focalisé sur la même détermination, celle de pouvoir faire de nouvelles choses et surtout toujours apprendre. C'est pour cela que le domaine du numérique, par sa complexité et ses domaines de compétences innombrables, est une source intarissable de nouveaux défis à relever. Dans un souci d'épanouissement et de bien-être, j'ai eu envie de découvrir ce nouveau monde qui ne cesse de m'apporter de grandes satisfactions.",
+	'presentation' => "Vous allez découvrir ci-dessous les différentes étapes de mon parcours professionnel qui de prime abord peut paraître atypique mais qui pourtant reste focalisé sur la même détermination, celle de pouvoir faire de nouvelles choses et surtout toujours apprendre. C'est pour cela que le domaine du numérique, par sa complexité et ses domaines de compétences innombrables, est une source intarissable de nouveaux défis à relever. Dans un souci d'épanouissement et de bien-être, j'ai eu envie de découvrir ce nouveau monde qui ne cesse de m'apporter de grandes satisfactions.",
 
 	'about_me' => 'A propos de moi',
 	'skills' => 'Compétences',
