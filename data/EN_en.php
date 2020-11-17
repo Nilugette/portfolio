@@ -11,8 +11,10 @@ $trads = [
 	'welcome' => 'Welcome to my online portfolio',
 	'dev' => 'Web Developer',
 	'link_cv' => 'laure_cv_anglais.pdf',
-	'download' => 'Download my CV', 
+	'download' => 'Download my CV',
 	'customer_service' => 'Technical Support',
+	'web_dev' => 'Web Developer',
+	'webo_description' => 'Project : Implentation of an SSO - Ticket : Maintenance of an application called WAM',
 	'support' => 'Raising tickets, solving landline issues',
 	'monitoring' => 'Alarm and system monitoring - hosting and network',
 	'translation' => "Translation from english to french of item's description put online",
@@ -23,18 +25,19 @@ $trads = [
 	'missions' => 'Various Missions',
 	'missions_description' => 'Various missions done in restaurant or call center...',
 	'highschool' => 'Highschool',
-	'diploma' => 'A level National Diploma',
-	'chemistry' => 'Science and Technology of Laboratory',
+	'diploma' => 'A-level National Diploma',
+	'chemistry_description' => 'Science and Technology of Laboratory',
 	'certification' => 'Higher National Diploma - Certification RNCP Web Developer / Integrator',
+	'master_degree' => 'Master\'s Degree - Design and Development of application',
 	'firstname' => 'Firstname',
 	'lastname' => 'Lastname',
 	'email' => 'Email',
 	'message' => 'Message',
-	'thx_you' => 'Thank you for contacting me. Your message has been successfully sent !', 
+	'thx_you' => 'Thank you for contacting me. Your message has been successfully sent !',
 	'firstname_field' => "Firstname field is not completed",
 	'lastname_field' => "Lastname field is not completed",
 	'email_field' => "Email field is not completed",
 	'message_field' => "Message field is not completed"
-	
-	
+
+
 ];

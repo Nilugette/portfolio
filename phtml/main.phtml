@@ -76,18 +76,18 @@
         <div class="col-md-6">
             <!-- 3 bars de progress -->
             <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                <h5>HTML/CSS/JS 90%</h5>
+              </div>
+            </div>
+             <div class="progress">
               <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
-                <h5>HTML/CSS 85%</h5>
+                <h5>MySQL/NoSQL 85%</h5>
               </div>
             </div>
              <div class="progress">
-              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
-                <h5>PHP/MySQL 75%</h5>
-              </div>
-            </div>
-             <div class="progress">
-              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                <h5>JavaScript/jQuery 70%</h5>
+              <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                <h5>Docker/Git/Agile 85%</h5>
               </div>
             </div>
             <!-- fin des 3 bars de progress -->
@@ -95,18 +95,18 @@
         <div class="col-md-6">
           <!-- 3 bars de progress -->
             <div class="progress">
-              <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-                <h5>Symfony 40%</h5>
+              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                <h5>PHP/Perl/VueJS 60%</h5>
               </div>
             </div>
              <div class="progress">
               <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                <h5>Bootstrap 70%</h5>
+                <h5>Ruby 70%</h5>
               </div>
             </div>
              <div class="progress">
-              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
-                <h5>Wordpress 60%</h5>
+              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                <h5>NodeJS 70%</h5>
               </div>
             </div>
             <!-- fin des 3 bars de progress -->
@@ -121,12 +121,29 @@
         <h2><?= trad('experience')?></h2>
       </div>
       <ul class="timeline">
+
         <li>
           <div class="timeline-badge"><i class="fa fa-briefcase"></i></div>
           <div class="timeline-panel-container">
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h3>Coriolis Télécom – Suresnes 92</h3>
+                <h3>Weborama – Paris</h3>
+                <h4><?= trad('web_dev'); ?></h4>
+                <p class="text-muted"><small><i class="fa fa-clock-o" aria-hidden="true"></i></small> 2016 - 2017</p>
+              </div>
+              <div class="timeline-body">
+                <p><?= trad('webo_description')?></p>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="timeline-badge"><i class="fa fa-briefcase"></i></div>
+          <div class="timeline-panel-container-inverted">
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3>Coriolis Télécom – Suresnes</h3>
                 <h4><?= trad('customer_service'); ?></h4>
                 <p class="text-muted"><small><i class="fa fa-clock-o" aria-hidden="true"></i></small> 2016 - 2017</p>
               </div>
@@ -139,7 +156,7 @@
 
         <li>
           <div class="timeline-badge"><i class="fa fa-briefcase"></i></div>
-          <div class="timeline-panel-container-inverted">
+          <div class="timeline-panel-container">
             <div class="timeline-panel">
               <div class="timeline-heading">
                 <h3>Easynet Global Services Ltd – Shepton Mallet UK</h3>
@@ -154,7 +171,7 @@
         </li>
         <li>
           <div class="timeline-badge"><i class="fa fa-briefcase"></i></div>
-          <div class="timeline-panel-container">
+          <div class="timeline-panel-container-inverted">
             <div class="timeline-panel">
               <div class="timeline-heading">
                 <h3>Beaubelle Ltd – Bristol UK</h3>
@@ -169,10 +186,10 @@
         </li>
         <li>
           <div class="timeline-badge"><i class="fa fa-briefcase"></i></div>
-          <div class="timeline-panel-container-inverted">
+          <div class="timeline-panel-container">
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h3>TransWorld Traders – Puteaux 92</h3>
+                <h3>TransWorld Traders – Puteaux</h3>
                 <h4><?= trad('assistant'); ?></h4>
                 <p class="text-muted"><small><i class="fa fa-clock-o" aria-hidden="true"></i></small> 2010 - 2014</p>
               </div>
@@ -184,10 +201,10 @@
         </li>
         <li>
           <div class="timeline-badge"><i class="fa fa-briefcase"></i></div>
-          <div class="timeline-panel-container">
+          <div class="timeline-panel-container-inverted">
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h3>Guide Champérard – Suresnes 92</h3>
+                <h3>Guide Champérard – Suresnes</h3>
                 <h4><?= trad('p_a'); ?></h4>
                 <p class="text-muted"><small><i class="fa fa-clock-o" aria-hidden="true"></i></small> 2008 - 2009</p>
               </div>
@@ -199,7 +216,7 @@
         </li>
         <li>
           <div class="timeline-badge"><i class="fa fa-briefcase"></i></div>
-          <div class="timeline-panel-container-inverted">
+          <div class="timeline-panel-container">
             <div class="timeline-panel">
               <div class="timeline-heading">
                 <h3><?= trad('missions'); ?></h3>
@@ -219,24 +236,34 @@
     <div class="purple-divider"></div>
     <div class="heading"><h2><?= trad('education')?></h2></div>
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-4">
           <div class="education-block">
             <h5>2001</h5>
             <span><i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i></span>
-            <h3><?= trad('highschool'); ?> Paul Langevin - Suresnes 92</h3>
+            <h3><?= trad('highschool'); ?> Paul Langevin - Suresnes</h3>
             <h4><?= trad('diploma'); ?></h4>
             <div class="purple-divider"></div>
             <p>Sciences et Techniques de Laboratoire</p>
           </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-4">
           <div class="education-block">
             <h5>2018</h5>
             <span><i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i></span>
-            <h3>3W Academy - Paris 18è</h3>
+            <h3>3W Academy - Paris</h3>
             <h4><?= trad('certification'); ?></h4>
             <div class="purple-divider"></div>
             <p>HTML, CSS, JavaScript, PHP, SQL</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="education-block">
+            <h5>2020</h5>
+            <span><i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i></span>
+            <h3>3W Academy - Paris</h3>
+            <h4><?= trad('master_degree'); ?></h4>
+            <div class="purple-divider"></div>
+            <p>React (JS, Native), NodeJS, AngularJS, PHP, POO, Android, IOS</p>
           </div>
         </div>
       </div>
@@ -252,7 +279,7 @@
           <a class="thumbnail" href="projets/snake/index.html" target="_blank"><img src="img/snake.png" alt="jeu du snake"></a>
         </div>
         <div class="col-sm-4">
-        <a class="thumbnail" href="projets/blog/index.php" target="_blank"><img src="img/blog.png" alt="projet blog"></a>
+        <a class="thumbnail" href="https://splash-blog-laure.herokuapp.com/" target="_blank"><img src="img/splash.png" alt="projet blog"></a>
         </div>
         <div class="col-sm-4">
           <a class="thumbnail" href="projets/restaurant/index.php" target="_blank"><img src="img/restaurant.jpg" alt="projet restaurant"></a>
